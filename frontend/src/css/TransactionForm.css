@@ -1,0 +1,175 @@
+
+
+.transaction-form {
+  padding: 2rem !important;
+  margin: auto;
+  border-radius: 15px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  max-width: 1000px;
+  width: 100%;
+}
+
+.form-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #db2777 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  border-bottom: 2px solid #db2777 !important;
+  padding-bottom: 8px !important;
+  max-width: 400px !important;
+  margin: 0 auto 3.75rem !important;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.error-message {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.field-error {
+  margin-top: 4px !important;
+  display: block !important;
+  text-align: left !important;
+}
+
+.submit-button {
+  margin-top: 1.5rem !important;
+  background-color: #831843 !important;
+  color: #fff;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  text-transform: none;
+  padding: 0.75rem 1.5rem !important;
+}
+
+.submit-button:hover {
+  background-color: #db2777 !important;
+}
+
+.currency-note {
+  margin: 1rem 0 !important;
+  color: #787878 !important;
+  font-size: 0.95rem !important;
+}
+
+.pink-input {
+  margin-bottom: 16px !important;
+}
+
+.pink-label {
+  color: #787878ff !important;
+}
+
+.pink-label.Mui-focused,
+.pink-input label.Mui-focused {
+  color: #f472b6 !important;
+}
+
+.pink-select .MuiOutlinedInput-root,
+.pink-input .MuiOutlinedInput-root {
+  border-radius: 4px !important;
+}
+
+.pink-select .MuiOutlinedInput-root fieldset,
+.pink-input .MuiOutlinedInput-root fieldset {
+  border-color: #78787897 !important;
+}
+
+.pink-select .MuiOutlinedInput-root:hover fieldset,
+.pink-input .MuiOutlinedInput-root:hover fieldset {
+  border-color: #78787897 !important;
+}
+
+.pink-select .MuiOutlinedInput-root.Mui-focused fieldset,
+.pink-input .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #f472b6 !important;
+}
+
+.pink-input input:focus,
+.pink-select input:focus,
+.pink-input .MuiOutlinedInput-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.menu-item:hover {
+  background-color: #f472b55e !important;
+}
+
+.MuiMenuItem-root.Mui-selected {
+  background-color: #f472b5 !important;
+}
+
+@media (max-width: 768px) {
+  .transaction-form {
+    padding: 1.25rem !important;
+  }
+
+  .form-title {
+    font-size: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    max-width: 250px !important;
+  }
+
+  .currency-note {
+    font-size: 0.8rem !important;
+  }
+
+  .submit-button {
+    font-size: 0.85rem !important;
+    padding: 0.6rem 1rem !important;
+  }
+
+  .form-box {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .transaction-form {
+    padding: 1rem !important;
+  }
+
+  .form-title {
+    font-size: 0.9rem !important;
+    margin-bottom: 1.25rem !important;
+    max-width: 200px !important;
+  }
+
+  .submit-button {
+    font-size: 0.8rem !important;
+    padding: 0.5rem 0.9rem !important;
+  }
+
+  .currency-note {
+    font-size: 0.75rem !important;
+  }
+
+  .error-message,
+  .field-error {
+    font-size: 0.8rem !important;
+  }
+
+  input,
+  .MuiOutlinedInput-input {
+    font-size: 0.85rem !important;
+  }
+
+  label.pink-label {
+    font-size: 0.8rem !important;
+  }
+
+  .MuiContainer-root {
+    margin-bottom: 1.5rem !important;
+    margin-top: 5rem !important;
+  }
+}

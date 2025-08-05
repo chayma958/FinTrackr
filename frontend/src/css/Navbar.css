@@ -1,0 +1,361 @@
+.navbar {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-title {
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  font-weight: 600 !important;
+  color: #fff !important;
+  margin-right: 2rem !important;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-button {
+  color: #b54e77 !important;
+  font-weight: normal;
+  border-radius: 0 !important;
+  text-transform: none;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  padding: 8px 16px;
+}
+
+.nav-button:hover {
+  background-color: #2a2a2a !important;
+}
+
+.nav-button.active {
+  color: #f472b6 !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #fff;
+}
+
+.sidebar-link.active {
+  color: #f472b6 !important;
+  font-weight: 600 !important;
+  background-color: #2a2a2a !important;
+}
+
+.sidebar-link:hover {
+  background-color: #2a2a2a !important;
+}
+
+.right-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.balance {
+  transition: color 0.3s ease;
+  color: #fff !important;
+  font-size: clamp(0.85rem, 2.5vw, 1rem);
+  font-weight: 400 !important;
+  line-height: 1.5;
+}
+
+.balance.balance-updated {
+  color: #9cee90 !important;
+  font-weight: bold !important;
+  animation: balancePulse 0.5s ease-in-out;
+}
+
+.settings-button {
+  color: #fff !important;
+  transition: all 0.3s ease !important;
+}
+
+.settings-button:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.1);
+}
+
+.mobile-menu-button {
+  color: #fff !important;
+  display: none;
+}
+
+.user-menu-paper {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  background-color: #ffffff !important;
+  min-width: 200px;
+}
+
+.user-menu-header {
+  background-color: #f5f5f5;
+  padding: 8px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-icon {
+  color: #f472b6 !important;
+}
+
+.user-name {
+  font-weight: bold !important;
+  color: #333 !important;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+.user-menu-item {
+  padding: 12px 16px !important;
+  color: #333 !important;
+  font-size: clamp(0.85rem, 2.5vw, 0.95rem);
+}
+
+.user-menu-item:hover {
+  background-color: #fce4ec !important;
+  color: #f472b6 !important;
+
+  .menu-icon{
+  color: #f472b6 !important;
+}
+}
+
+.menu-icon {
+  color: #787878 !important;
+  margin-right: 8px !important;
+}
+
+
+
+.sidebar-paper {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+  width: 240px;
+  padding: 16px;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #333;
+  overflow: hidden;
+}
+
+.sidebar-user-icon {
+  color: #f472b6 !important;
+  font-size: clamp(20px, 5vw, 24px) !important;
+}
+
+.sidebar-user-name {
+  font-weight: bold !important;
+  color: #fff !important;
+  font-size: clamp(0.85rem, 2.5vw, 1rem);
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 180px;
+}
+
+.sidebar-balance {
+  transition: color 0.3s ease;
+  color: #fff !important;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+  font-weight: 400 !important;
+  line-height: 1.5;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 180px;
+}
+
+.sidebar-balance.balance-updated {
+  color: #9cee90 !important;
+  font-weight: bold !important;
+  animation: balancePulse 0.5s ease-in-out;
+}
+
+.sidebar-link {
+  color: #b54e77 !important;
+  font-size: clamp(0.8rem, 2.5vw, 0.95rem);
+  padding: 8px 16px !important;
+}
+
+.sidebar-link:hover {
+  background-color: #2a2a2a !important;
+  color: #f472b6 !important;
+}
+
+.sidebar-link.active {
+  color: #f472b6 !important;
+  font-weight: 600 !important;
+  background-color: #2a2a2a !important;
+}
+
+.sidebar-icon {
+  color: #787878 !important;
+  min-width: 24px !important;
+}
+
+.sidebar-icon.active {
+  color: #f472b6 !important;
+}
+
+@keyframes balancePulseCenter {
+  0% {
+    transform: translateX(-50%) scale(1);
+    color: #fff;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.1);
+    color: #9cee90;
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+    color: #fff;
+  }
+}
+
+@keyframes balancePulse {
+  0% {
+    transform: scale(1);
+    color: #fff;
+  }
+  50% {
+    transform: scale(1.1);
+    color: #9cee90;
+  }
+  100% {
+    transform: scale(1);
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar {
+    padding: 0 12px;
+  }
+
+  .navbar-title {
+    font-size: clamp(1rem, 3.5vw, 1.25rem);
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .settings-button {
+    display: none !important;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .balance {
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .balance.balance-updated {
+  color: #9cee90 !important;
+  font-weight: bold !important;
+  animation: balancePulseCenter 0.5s ease-in-out;
+}
+
+  .right-group {
+    gap: 8px;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .sidebar-paper {
+    max-width: 300px !important;
+    width: 100% !important;
+    padding: 12px;
+  }
+
+  .sidebar-header {
+    padding: 10px 12px;
+  }
+
+    .sidebar-username{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sidebar-user-name {
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+    max-width: 150px;
+  }
+
+  .sidebar-link {
+    font-size: clamp(0.75rem, 2.5vw, 0.85rem);
+    padding: 6px 12px !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .balance {
+    display: none;
+  }
+
+  .sidebar-paper {
+    width: 180px;
+  }
+
+  .sidebar-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+
+
+  .sidebar-user-icon {
+    font-size: clamp(18px, 5vw, 22px) !important;
+  }
+
+  .sidebar-user-name {
+    font-size: clamp(0.75rem, 2.5vw, 0.85rem);
+    max-width: 140px;
+  }
+
+  .sidebar-balance {
+    font-size: clamp(0.7rem, 2.5vw, 0.8rem);
+    max-width: 140px;
+  }
+
+  .sidebar-link {
+    font-size: clamp(0.7rem, 2.5vw, 0.8rem);
+    padding: 6px 12px !important;
+  }
+}

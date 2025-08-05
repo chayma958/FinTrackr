@@ -1,0 +1,207 @@
+
+.charts-container {
+  padding: 2rem !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  border-radius: 15px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.charts-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  border-bottom: 2px solid #fff !important;
+  padding-bottom: 8px !important;
+  max-width: 400px !important;
+  margin: 0 auto 24px !important;
+}
+
+.chart-title {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.filter-row {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 3rem !important;
+}
+
+.filter-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.filter-group .MuiTypography-subtitle1 {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.03em !important;
+  margin-bottom: 1rem !important;
+}
+
+.filter-group .MuiFormControl-root {
+  width: 250px !important;
+}
+
+.filter-group .MuiFormLabel-root.MuiInputLabel-root {
+  color: #ffffff !important;
+}
+
+.filter-group .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+  color: #f472b6 !important;
+}
+
+.filter-group .MuiSelect-select.MuiSelect-outlined {
+  color: #ffffff !important;
+}
+
+.filter-group .MuiSelect-root {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.filter-group .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.filter-group .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.filter-group .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #f472b6 !important;
+}
+
+.filter-group .MuiSelect-icon {
+  color: #ffffff !important;
+}
+
+.filter-group .MuiMenu-paper {
+  background: rgba(0, 0, 0, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.filter-group .MuiMenuItem-root:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.filter-group .MuiMenuItem-root.Mui-selected {
+  background-color: #f472b5 !important;
+}
+
+.charts-error {
+  text-align: center !important;
+  color: #ff6b6b !important;
+  font-weight: 500 !important;
+  margin-bottom: 2rem !important;
+}
+
+.chart-canvas {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 768px) {
+  .charts-container {
+    padding: 1.25rem !important;
+  }
+
+  .charts-title {
+    font-size: 1rem !important;
+    max-width: 250px !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .chart-title {
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .filter-row {
+    gap: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .filter-group .MuiFormControl-root {
+    width: 200px !important;
+  }
+
+  .filter-group .MuiTypography-subtitle1 {
+    font-size: 0.9rem !important;
+  }
+
+  .charts-error {
+    font-size: 0.9rem !important;
+  }
+
+  .chart-canvas {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 504px) {
+  .charts-container {
+    padding: 1rem !important;
+  }
+
+  .charts-title {
+    font-size: 0.9rem !important;
+    max-width: 200px !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  .chart-title {
+    font-size: 0.85rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .filter-row {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .filter-group .MuiFormControl-root {
+    width: 100% !important;
+  }
+
+  .filter-group .MuiTypography-subtitle1 {
+    font-size: 0.8rem !important;
+  }
+
+  .charts-error {
+    font-size: 0.8rem !important;
+  }
+
+  .filter-group .MuiInputLabel-root {
+    font-size: 0.8rem !important;
+  }
+
+  .filter-group .MuiSelect-root {
+    font-size: 0.85rem !important;
+  }
+
+  .chart-canvas {
+    max-width: 100% !important;
+  }
+}

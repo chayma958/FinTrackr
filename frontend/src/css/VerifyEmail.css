@@ -1,0 +1,80 @@
+.verify-email-container {
+  padding-top: 80px !important;
+  min-height: 100vh !important;
+  background: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-bottom: 20px !important;
+}
+
+.verify-email-card {
+  padding: 5vw !important; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  background-color: #fff !important;
+  border-radius: 4px !important;
+  width: 100% !important;
+  max-width: 600px !important;
+}
+
+.verify-email-text {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 16px !important;
+  text-align: center !important;
+}
+
+.verify-email-text-primary {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem) !important;
+  font-weight: 600 !important;
+  color: #4b5563 !important;
+}
+
+.verify-email-text-error {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem) !important;
+  font-weight: 600 !important;
+  color: #d32f2f !important;
+}
+
+.verify-email-text-secondary {
+  font-size: clamp(0.875rem, 2vw, 1rem) !important;
+  font-weight: 400 !important;
+  color: #4b5563 !important;
+  margin-top: 8px !important;
+}
+
+.verify-email-button {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: clamp(0.875rem, 2vw, 1rem) !important;
+  font-weight: 400 !important;
+  color: #d219b6 !important;
+  text-decoration: underline !important;
+  cursor: pointer !important;
+  text-transform: none !important;
+  position: relative !important;
+  top: -1px !important;
+}
+
+.verify-email-button:hover {
+  color: #ac1492 !important;
+  background: none !important;
+}
+
+.verify-email-spinner {
+  color: #d219bd !important;
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+@media (max-width: 480px) {
+  .verify-email-card {
+    padding: 24px !important;
+  }
+
+  .verify-email-container {
+    padding: 10px 20px 20px  !important;
+  }
+}

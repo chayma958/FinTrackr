@@ -1,0 +1,54 @@
+.pie-chart-container {
+  margin-bottom: 2rem !important;
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  padding: 1.5rem !important;
+  transition: transform 0.3s ease !important;
+}
+
+.pie-chart-wrapper {
+  max-width: 500px !important;
+  margin: 0 auto !important;
+  padding: 1rem !important;
+}
+
+.no-data-message {
+  text-align: center !important;
+  color: #ff6b6b !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  margin-top: 1rem !important;
+}
+
+@media (max-width: 768px) {
+  .pie-chart-container {
+    padding: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .pie-chart-wrapper {
+    max-width: 350px !important;
+    padding: 0.75rem !important;
+  }
+
+  .no-data-message {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .pie-chart-container {
+    padding: 0.75rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .pie-chart-wrapper {
+    max-width: 100% !important;
+    padding: 0.5rem !important;
+  }
+
+  .no-data-message {
+    font-size: 0.8rem !important;
+  }
+}
